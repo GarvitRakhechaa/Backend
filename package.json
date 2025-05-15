@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend started",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarvitRakhechaa/Backend.git"
+  },
+  "author": "Garvit Rakhecha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GarvitRakhechaa/Backend/issues"
+  },
+  "homepage": "https://github.com/GarvitRakhechaa/Backend#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
