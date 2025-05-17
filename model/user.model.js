@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { type } from "os";
 
-userSchema = new mongoose.Schema(
+const userSchema = new mongoose.Schema(
     {
         name: String,
         email: String,
@@ -9,7 +9,7 @@ userSchema = new mongoose.Schema(
         role: {
             type: String,
             enum: ["User", "Admin"],
-            default:user
+            default:"User"
         },
         isVarified: {
             type: Boolean,
